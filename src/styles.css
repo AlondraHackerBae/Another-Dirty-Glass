@@ -1,0 +1,27 @@
+body {
+  background: #fff;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+.container {
+  background: rgba(162, 189, 182, 0.4);
+  border-radius: 4px;
+  line-height: 40px;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 0px 0px rgba(48, 48, 49, 0.3);
+}
+img {
+  border-radius: 4px;
+}
+.packages {
+  border: 4px red dashed;
+}
+.package-p {
+  max-width: 80%;
+  text-align: center;
+}
