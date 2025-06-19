@@ -1,27 +1,134 @@
 body {
   background: #fff;
   padding: 30px;
+  font-family: "Geist", sans-serif;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header {
+  margin: 30px;
+  padding: 80px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0 100%),
+    url(/images/martini.png);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-position: center;
+}
+
+.nav-link {
+  color: black !important;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: olive !important;
+}
+h1,
+h2,
+h3 {
+  font-family: "Niconne", cursive;
 }
 h1 {
+  color: #2c2929;
+  text-shadow: 1px 1px 2px rgb(17, 17, 17);
   text-align: center;
-  font-size: 80px;
+  font-size: 140px;
+  position: relative;
+  top: 130px;
+}
+h2 {
+  text-align: center;
+  font-size: 45px;
+}
+h3 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+}
+h4 {
+  color: #2c2929;
+  font-size: 15px;
+  text-align: right;
+  position: relative;
+  top: 72px;
+  right: 85px;
+}
+#who-we-are {
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  background: rgb(245, 246, 237, 0.7);
 }
 .container {
-  background: rgba(162, 189, 182, 0.4);
+  background-color: #ececdb;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0 100%),
+    url(/images/pattern-bckgd.png);
   border-radius: 4px;
+  color: #2c2929;
   line-height: 40px;
   font-size: 15px;
   padding: 20px;
   text-align: center;
-  box-shadow: 5px 5px 0px 0px rgba(48, 48, 49, 0.3);
+  width: 80%;
+  box-shadow: 5px 5px 20px 0px rgba(48, 48, 49, 0);
 }
 img {
   border-radius: 4px;
+  position: relative;
+  top: 105px;
 }
 .packages {
-  border: 4px red dashed;
+  background: #c2baa2;
+  padding: 20px;
+  line-height: 1.5;
 }
 .package-p {
-  max-width: 80%;
+  max-width: 100%;
   text-align: center;
+}
+.disclaimer {
+  text-align: center;
+  font-size: 12px;
+}
+button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: block;
+}
+.contact {
+  text-align: center;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contact-p {
+  margin: 20px;
+  padding: 10px;
+  font-size: 17px;
+}
+footer {
+  width: 50%;
+  text-align: center;
+  display: block;
+  font-size: 11px;
+  margin: 0 auto;
+  padding: 20px;
+  opacity: 0.7;
+}
+a {
+  color: olive;
+}
+a:hover {
+}
+button a {
+  text-decoration: none;
+}
+button:hover {
+  background: black;
+  border: none;
+  transition: all 250ms ease-in-out;
 }
