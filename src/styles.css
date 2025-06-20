@@ -163,4 +163,18 @@ button:hover {
     right: -5px;
     font-size: 10px;
   }
+  .container {
+    background-repeat: no-repeat;
+    margin: 0 auto !important;
+    width: 100%;
+  }
+  #who-we-are {
+    font-size: 15px;
+    line-height: 20px;
+    height: auto;
+    margin: 0 auto !important;
+  }
+  .img-fluid {
+    display: none;
+  }
 }
