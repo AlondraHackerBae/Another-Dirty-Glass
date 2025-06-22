@@ -121,8 +121,10 @@ footer {
 }
 a {
   color: olive;
+  text-decoration: none;
 }
 a:hover {
+  text-decoration: underline;
 }
 button a {
   text-decoration: none;
@@ -175,6 +177,9 @@ button:hover {
     margin: 0 auto !important;
   }
   .img-fluid {
+    display: none;
+  }
+  .package-p {
     display: none;
   }
 }
