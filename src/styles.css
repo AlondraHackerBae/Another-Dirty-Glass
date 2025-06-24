@@ -138,17 +138,38 @@ button:hover {
   border: none;
   transition: all 250ms ease-in-out;
 }
+.dark {
+  background: black;
+  color: white;
+}
+.dark .nav-link {
+  color: white !important;
+}
+.dark .container {
+  background-image: linear-gradient(to right, rgba(42, 50, 30, 0.7) 0 100%),
+    url(/images/pattern-bckgd.png);
+}
+.dark #about {
+  color: white;
+}
+.dark .packages {
+  background: rgb(42, 50, 30);
+}
+.dark #packages {
+  color: white;
+}
+
 .dark-button {
-  border: 0.5px solid black;
   border-radius: 40px;
-  color: olive;
+  background: white;
+  color: black;
   font-size: 14px;
   margin-top: 4px;
   padding: 5px;
 }
 .dark-button:hover {
   background: black;
-  border: none;
+  color: white;
   transition: all 250ms ease-in-out;
 }
 
