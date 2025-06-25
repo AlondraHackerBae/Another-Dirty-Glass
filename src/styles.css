@@ -145,6 +145,12 @@ button:hover {
 .dark .nav-link {
   color: white !important;
 }
+.dark h1 {
+  color: white;
+}
+.dark .tag-line {
+  color: white;
+}
 .dark .container {
   background-image: linear-gradient(to right, rgba(42, 50, 30, 0.7) 0 100%),
     url(/images/pattern-bckgd.png);
